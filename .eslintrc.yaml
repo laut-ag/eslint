@@ -1,0 +1,1 @@
+extends: "./laut-eslint-es6.yaml"
