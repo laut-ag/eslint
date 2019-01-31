@@ -1,0 +1,17 @@
+{
+  "name": "lauteslint",
+  "version": "1.0.0",
+  "description": "Laut Standard for ES-lint",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.laut.ag:10022/Vern/Styleguides.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "babel-eslint": "10.x",
+    "eslint": "5.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-vue": "5.x"
+  }
+}
