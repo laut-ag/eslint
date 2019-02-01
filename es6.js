@@ -1,35 +1,35 @@
 {
-   env: {
-      es6: true
+   "env": {
+      "es6": true
    },
    extends: [
-      ./laut-eslint-base.yaml
+      "./laut-eslint-base.yaml"
    ],
    rules: {
-      prefer-arrow-callback: 1,
-      no-var: 1,
-      prefer-const: 1,
-      prefer-rest-params: 1,
-      prefer-spread: 1,
-      prefer-destructuring: 1,
-      arrow-body-style: [
+      "prefer-arrow-callback": 1,
+      "no-var": 1,
+      "prefer-const": 1,
+      "prefer-rest-params": 1,
+      "prefer-spread": 1,
+      "prefer-destructuring": 1,
+      "arrow-body-style": [
          2,
-         as-needed
+         "as-needed"
       ],
-      arrow-parens: [
+      "arrow-parens": [
          2,
-         as-needed
+         "as-needed"
       ],
-      arrow-spacing: [
+      "arrow-spacing": [
          2,
          {
             before: true,
             after: true
          }
       ],
-      func-names: [
+      "func-names": [
          1,
-         as-needed
+         "as-needed"
       ]
    }
 }
