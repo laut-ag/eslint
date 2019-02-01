@@ -1,4 +1,4 @@
-{
+module.exports = {
    "env": {
       "browser": true,
       "node": true
@@ -135,19 +135,8 @@
       "key-spacing": [
          2,
          {
-            "align": {
-               "beforeColon": false,
-               "afterColon": true,
-               "true": "value"
-            },
-            "multiLine": {
-               "beforeColon": false,
-               "afterColon": true
-            },
-            "singleLine": {
-               "beforeColon": false,
-               "afterColon": true
-            }
+					 "afterColon": true,
+					 "beforeColon": false
          }
       ],
       "keyword-spacing": [
