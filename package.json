@@ -2,6 +2,7 @@
   "name": "lauteslint",
   "version": "1.0.0",
   "description": "Laut Standard for ES-lint",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "ssh://git@git.laut.ag:10022/Vern/Styleguides.git"
