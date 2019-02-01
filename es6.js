@@ -2,10 +2,10 @@
    "env": {
       "es6": true
    },
-   extends: [
-      "./laut-eslint-base.js"
+   "extends": [
+      "./base.js"
    ],
-   rules: {
+   "rules": {
       "prefer-arrow-callback": 1,
       "no-var": 1,
       "prefer-const": 1,
@@ -23,8 +23,8 @@
       "arrow-spacing": [
          2,
          {
-            before: true,
-            after: true
+            "before": true,
+            "after": true
          }
       ],
       "func-names": [
