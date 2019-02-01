@@ -6,6 +6,9 @@
     "type": "git",
     "url": "ssh://git@git.laut.ag:10022/Vern/Styleguides.git"
   },
+  "scripts": {
+    "postinstall": "cp .eslintrc.yaml $INIT_CWD"
+  },
   "author": "",
   "license": "MIT",
   "dependencies": {
