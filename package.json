@@ -8,7 +8,7 @@
   },
   "author": "",
   "license": "MIT",
-  "peerDependencies": {
+  "dependencies": {
     "babel-eslint": "10.x",
     "eslint": "5.x",
     "eslint-plugin-import": "2.x",
