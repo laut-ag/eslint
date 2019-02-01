@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lauteslint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Laut Standard for ES-lint",
   "main": "index.js",
   "repository": {
