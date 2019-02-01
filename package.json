@@ -1,5 +1,5 @@
 {
-  "name": "lauteslint",
+  "name": "eslint-config-lauteslint",
   "version": "1.0.0",
   "description": "Laut Standard for ES-lint",
   "main": "index.js",
