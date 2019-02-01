@@ -3,7 +3,7 @@
       "es6": true
    },
    extends: [
-      "./laut-eslint-base.yaml"
+      "./laut-eslint-base.js"
    ],
    rules: {
       "prefer-arrow-callback": 1,
