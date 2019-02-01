@@ -1,3 +1,3 @@
-var eslint = require('./laut-eslint-es6.yaml')
+var eslint = require('./es6.js')
 
 module.exports = eslint
