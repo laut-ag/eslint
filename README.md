@@ -2,6 +2,5 @@
 
 ## ESlint
 
-install `npm i -D eslint babel-eslint eslint-plugin-vue eslint-plugin-import`
-
-to fix: `node_modules/eslint/bin/eslint.js --fix --fix-type layout file`
+install with git+ssh://git@git.laut.ag:10022/laut.fm/ESlint.git
+All dependencies and files will be automatically installed
