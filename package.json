@@ -8,7 +8,7 @@
     "url": "ssh://git@git.laut.ag:10022/Vern/Styleguides.git"
   },
   "scripts": {
-    "postinstall": "cp .eslintrc.yaml $INIT_CWD"
+    "postinstall": "./bootstrap.sh $INIT_CWD"
   },
   "author": "",
   "license": "MIT",
