@@ -136,7 +136,7 @@ module.exports = {
          2,
          {
          "afterColon": true,
-         "beforeColon": false
+         "beforeColon": false,
          "align": "value"
          }
       ],
