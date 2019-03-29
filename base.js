@@ -135,8 +135,9 @@ module.exports = {
       "key-spacing": [
          2,
          {
-					 "afterColon": true,
-					 "beforeColon": false
+         "afterColon": true,
+         "beforeColon": false
+         "align": "value"
          }
       ],
       "keyword-spacing": [
