@@ -11,6 +11,23 @@ module.exports = {
       "plugin:vue/recommended"
    ],
    "rules": {
+     "vue/component-name-in-template-casing": [
+         1,
+         "PascalCalse",
+         {
+            "registeredComponentsOnly": true
+         }
+      ],
+      "vue/html-indent": [
+         2,
+         "tab",
+         {
+            "attribute": 1,
+            "baseIndent": 1,
+            "closeBracket": 1,
+            "alignAttributesVertically": true
+         }
+      ],
       "array-bracket-newline": [
          2,
          {
