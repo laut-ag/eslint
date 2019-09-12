@@ -13,9 +13,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "babel-eslint": "10.x",
-    "eslint": "5.x",
-    "eslint-plugin-import": "2.x",
-    "eslint-plugin-vue": "5.x"
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-vue": "^5.2.3"
   }
 }
