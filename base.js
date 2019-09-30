@@ -13,7 +13,7 @@ module.exports = {
    "rules": {
      "vue/component-name-in-template-casing": [
          1,
-         "PascalCalse",
+         "PascalCase",
          {
             "registeredComponentsOnly": true
          }
