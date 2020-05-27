@@ -1,21 +1,24 @@
 {
-  "name": "eslint-config-lauteslint",
+  "name": "@lautag/eslint-config",
   "version": "1.8.2",
-  "description": "Laut Standard for ES-lint",
+  "description": "Eslint configuration files for LAUT AG",
+  "keywords": [
+      "eslint", "eslint-config"
+  ],
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@git.laut.ag:10022/Vern/Styleguides.git"
-  },
   "scripts": {
-    "postinstall": "./bootstrap.sh $INIT_CWD"
+      "release": "./scripts/publish.sh"
   },
-  "author": "",
+  "author": "laut.ag",
+  "contributors": [
+      "Vern Hockney"
+  ],
   "license": "MIT",
-  "dependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.3.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-vue": "^5.2.3"
-  }
+  "peer-dependencies": {
+    "babel-eslint": ">=10",
+    "eslint": ">=6",
+    "eslint-plugin-import": ">=2",
+    "eslint-plugin-vue": ">=5"
+  },
+  "dependencies": {}
 }

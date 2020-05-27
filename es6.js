@@ -2,9 +2,6 @@ module.exports = {
    "env": {
       "es6": true
    },
-   "extends": [
-      "./base.js"
-   ],
    "rules": {
       "prefer-arrow-callback": 1,
       "no-var": 1,
