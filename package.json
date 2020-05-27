@@ -1,24 +1,25 @@
 {
-  "name": "@lautag/eslint-config",
-  "version": "1.8.2",
-  "description": "Eslint configuration files for LAUT AG",
-  "keywords": [
-      "eslint", "eslint-config"
-  ],
-  "main": "index.js",
-  "scripts": {
-      "release": "./scripts/publish.sh"
-  },
-  "author": "laut.ag",
-  "contributors": [
-      "Vern Hockney"
-  ],
-  "license": "MIT",
-  "peer-dependencies": {
-    "babel-eslint": ">=10",
-    "eslint": ">=6",
-    "eslint-plugin-import": ">=2",
-    "eslint-plugin-vue": ">=5"
-  },
-  "dependencies": {}
+    "name": "@lautag/eslint-config",
+    "version": "2.0.0",
+    "description": "Eslint configuration files for LAUT AG",
+    "keywords": [
+        "eslint",
+        "eslint-config"
+    ],
+    "main": "index.js",
+    "scripts": {
+        "release": "./scripts/publish.sh"
+    },
+    "author": "laut.ag",
+    "contributors": [
+        "Vern Hockney"
+    ],
+    "license": "MIT",
+    "peer-dependencies": {
+        "babel-eslint": ">=10",
+        "eslint": ">=6",
+        "eslint-plugin-import": ">=2",
+        "eslint-plugin-vue": ">=5"
+    },
+    "dependencies": {}
 }
